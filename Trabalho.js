@@ -11,7 +11,7 @@ function criar(doc){
     }
 
 function scrap(){
-    fetch("https://proxy.corsfix.com/?https://ge.globo.com/").then(response => {
+    fetch("https://api.allorigins.win/raw?https://ge.globo.com/").then(response => {
         if(!response.ok){
             throw new Error("Chamada HTTP Falhou")
         }
